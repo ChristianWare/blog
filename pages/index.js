@@ -1,8 +1,11 @@
+import { Fragment } from "react"
+
 function HomePage() {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <Fragment>
+      <Hero />
+      <FeaturedPosts />
+    </Fragment>
   )
 }
 
